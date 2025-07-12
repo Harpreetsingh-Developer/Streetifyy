@@ -1,0 +1,88 @@
+# 🍽️ Streetifyy
+
+> Hyper-local food delivery platform built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Inspired by Zomato and Swiggy, but built to empower **local vendors** and increase visibility for **budget-friendly meals**.
+
+🔗 Live Demo: [streetifyy-webapp.netlify.app](https://streetifyy-webapp.netlify.app/)
+
+---
+
+## 🚀 About the Project
+
+Streetifyy is a **hyper-local food delivery web app** designed to solve the problem of **local food visibility**. It helps users discover, order, and send **affordable meals** to their favorite people — all from **nearby vendors** who are often underrepresented on mainstream platforms.
+
+This project was developed with the goal of:
+
+- Supporting **small and local food businesses**
+- Reducing the **cost of delivery** and meals
+- Building a community-driven food platform
+
+---
+
+## 🌟 Features
+
+- 🔍 Discover hyper-local restaurants and food vendors
+- 🛒 Order and send meals to others
+- 🔐 User login and secure authentication
+- 📱 Fully responsive UI (mobile & desktop)
+- 💸 Budget-friendly meals and transparent pricing
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend        | Backend          | Database | Auth           | Styling      |
+|----------------|------------------|----------|----------------|---------------|
+| React.js        | Node.js          | MongoDB  | Express.js     | Tailwind CSS  |
+| Axios (API)     | Express Router   |          | JWT (Auth)     | Responsive UI |
+
+---
+
+## 🔐 Authentication
+
+- Secure login system using **JWT tokens**
+- User data protection with **bcrypt** password hashing
+- Role-based route protection (admin/vendor/user)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/streetifyy.git
+cd streetifyy
+
+# Install frontend dependencies
+cd client
+npm install
+
+# Install backend dependencies
+cd ../server
+npm install
+
+# Add environment variables
+touch .env
+# Add: MONGO_URI, JWT_SECRET, etc.
+
+# Start backend server
+npm run server
+
+# Start frontend
+cd ../client
+npm start
+
+streetifyy/
+├── client/                # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── App.jsx
+├── server/                # Express backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── .env
+├── README.md
+
