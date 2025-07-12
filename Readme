@@ -1,6 +1,6 @@
 # 🍽️ Streetifyy
 
-> Hyper-local food delivery platform built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Inspired by Zomato and Swiggy, but built to empower *local vendors* and increase visibility for *budget-friendly meals*.
+> Hyper-local food delivery platform built with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS. Inspired by Zomato and Swiggy, but built to empower local vendors and increase visibility for budget-friendly meals.
 
 🔗 Live Demo: [streetifyy-webapp.netlify.app](https://streetifyy-webapp.netlify.app/)
 
@@ -8,7 +8,7 @@
 
 ## 🚀 About the Project
 
-Streetifyy is a *hyper-local food delivery web app* designed to solve the problem of *local food visibility*. It helps users discover, order, and send *affordable meals* to their favorite people — all from *nearby vendors* who are often underrepresented on mainstream platforms.
+Streetifyy is a *hyper-local food delivery web app* designed to solve the problem of *local food visibility*. It helps users discover, order, and send *affordable meals* to their favorite people — all from nearby vendors who are often underrepresented on mainstream platforms.
 
 This project was developed with the goal of:
 
@@ -39,8 +39,8 @@ This project was developed with the goal of:
 
 ## 🔐 Authentication
 
-- Secure login system using *JWT tokens*
-- User data protection with *bcrypt* password hashing
+- Secure login system using JWT tokens
+- User data protection with bcrypt password hashing
 - Role-based route protection (admin/vendor/user)
 
 ---
